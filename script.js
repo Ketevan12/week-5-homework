@@ -21,16 +21,18 @@ function currentTime() {
     document.getElementById("clock").innerText = time; 
     let t = setTimeout(function(){ currentTime() }, 1000); 
 
-    if ( session = "AM" ) {
-        document.getElementById("egg").style.display = "initial";
-        document.getElementById("friedegg").style.display = "none";
-    }
-    if ( session = "PM" ) {
-        document.getElementById("egg").style.display = "none";
-        document.getElementById("friedegg").style.display = "initial";
-    }
-    
+   
+  if ( session = "AM") {
+    document.getElementById("egg").style.display = "initial"
+    document.getElementById("friedegg").style.display = "none"
+
   }
+  if ( session = "PM") {
+    document.getElementById("friedegg").style.display = "initial"
+    document.getElementById("egg").style.display = "none"
+
+  }
+}
 
  
  

@@ -1,20 +1,23 @@
 
 body {
-  font-size: 3500%;
+  font-size: 3650%;
   font-family: "fit", sans-serif;
   font-weight: 300;
   font-style: normal;
   background-color: black;
   color: rgb(251, 0, 255);
-  margin: 1%;
+  margin: 2%;
   justify-content: center;
-
 }
 
-.one{
-  margin-top: -100px;
+.h1{
+  margin-top: -300%;
   margin-left: 90%;
+}
 
+h2{
+  margin-top: -300%;
+  margin-left: 90%;
 }
 
 .hour,
