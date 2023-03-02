@@ -1,29 +1,53 @@
-* {
-  box-sizing: border-box;
-}
 
 body {
-  font-size: 22px;
-  line-height: 1.5;
-  font-family: Helvetica, sans-serif;
-  color: #111;
-  margin: 0;
-  padding: 20px 40px;
-
-  /* This will center anything on your page */
-  display: flex;
-  align-items: center;
+  font-size: 3500%;
+  font-family: "fit", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  background-color: black;
+  color: rgb(251, 0, 255);
+  margin: 1%;
   justify-content: center;
-  min-height: 100vh;
+
 }
 
-.clock {
-  display: flex;
-  gap: 20px;
-  padding: 20px 30px;
-  text-align: center;
-  border: 2px solid black;
-  border-radius: 10px;
+.one{
+  margin-top: -100px;
+  margin-left: 90%;
+
+}
+
+.hour,
+.minute,
+.second {
+position: absolute;
+background: black;
+border-radius: 30px;
+transform-origin: bottom;
+}
+
+.hour {
+width: 1.8%;
+height: 25%;
+top: 25%;
+left: 48.85%;
+opacity: 0.8;
+}
+
+.minute {
+width: 1.6%;
+height: 30%;
+top: 19%;
+left: 48.9%;
+opacity: 0.8;
+}
+
+.second {
+width: 1%;
+height: 40%;
+top: 9%;
+left: 49.25%;
+opacity: 0.8;
 }
 
 .time {
