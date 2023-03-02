@@ -1,24 +1,24 @@
 
 body {
-  font-size: 3650%;
+  font-size: 3600%;
   font-family: "fit", sans-serif;
   font-weight: 300;
   font-style: normal;
   background-color: black;
   color: rgb(251, 0, 255);
-  margin: 10%;
+  margin: 8%;
   justify-content: center;
 
 }
 
 .h1{
 
-  margin-left: 90%;
+  margin: 90%;
 }
 
 h2{
 
-  margin-left: 90%;
+  margin: 90%;
 }
 
 .hour,
