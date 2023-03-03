@@ -28,8 +28,8 @@ function currentTime() {
 
   }
   if ( session = "PM") {
-    document.getElementById("friedegg").style.display = "initial"
-    document.getElementById("egg").style.display = "none"
+    document.getElementById("egg").style.display = "initial"
+    document.getElementById("friedegg").style.display = "none"
 
   }
 }
